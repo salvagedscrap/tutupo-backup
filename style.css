@@ -30,13 +30,13 @@ p {
   scroll-padding-top: 70px;
   text-align: center;
   position: relative;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(155, 110, 175, 0.2)), to(rgba(196, 169, 208, 0.6))), url(./image/background.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(155, 110, 175, 0.4)), to(rgba(196, 169, 208, 0.6))), url(./image/background.png);
   background-image: linear-gradient(to bottom,
-    rgba(155, 110, 175, 0.2),
+    rgba(155, 110, 175, 0.4),
     rgba(196, 169, 208, 0.6)), url(./image/background.png);
   background-repeat: no-repeat, no-repeat;
-  background-position: center, top;
-  background-size: cover, 100%;
+  background-position: center, center;
+  background-size: cover, 50% ;
   padding-bottom: 10rem;
   color: #493852;
   /* height: 100vh; */
@@ -85,6 +85,22 @@ p {
 }
 .headings{
   padding: 15rem 0;
+  color: #fff;
+}
+main{
+  background-image: linear-gradient(to bottom, 
+  rgba(155, 110, 175, 0.705),
+   rgba(155, 110, 175, 0.685),
+    rgba(155, 110, 175, 0.575),
+     rgba(155, 110, 175, 0.404),
+      hsla(282, 29%, 56%, 0.329),
+       hsla(282, 29%, 56%, 0.267),
+        hsla(282, 29%, 56%, 0.281),
+         hsla(282, 29%, 56%, 0.342),
+          hsla(282, 29%, 56%, 0.438),
+           hsla(282, 29%, 56%, 0.616),
+            hsla(282, 29%, 56%, 0.63),
+             rgba(155, 110, 175, 0.658));
 }
 .header-nav .ul {
   -webkit-box-align: center;
@@ -195,7 +211,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   
-  background-image: linear-gradient(to bottom,  rgba(155, 110, 175, 0.2), rgba(154, 109, 175, 0.6));
+  /* background-image: linear-gradient(to bottom,  rgba(155, 110, 175, 0.2), rgba(154, 109, 175, 0.6)); */
 }
 .about-container{
   margin: 10rem auto;
@@ -289,7 +305,7 @@ p {
 
 .gallery{
   padding-top:10rem;
-  background-image: linear-gradient(to bottom,  rgba(155, 110, 175, 0.6), rgba(155, 110, 175, 0.2));
+  /* background-image: linear-gradient(to bottom,  rgba(155, 110, 175, 0.6), rgba(155, 110, 175, 0.2)); */
 
 }
 
@@ -316,8 +332,9 @@ p {
 }
 
 .footer-logo img {
-  width: 22rem;
+  width: 14rem;
   height: auto;
+  padding: 2rem;
 }
 
 .footer nav {
@@ -610,7 +627,7 @@ p {
     outline: 0;
   }
   .nav-hamburger .line {
-    background-color: #5290f9;
+    background-color: #fff;
     height: 2px;
     width: 20px;
     position: absolute;
